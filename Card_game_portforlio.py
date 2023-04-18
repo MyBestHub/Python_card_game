@@ -8,9 +8,9 @@ while True:
     print("Your score is: ", my_highscore)
     print("The computer score is: ", computer_highscore, "\n")
     print("Type A for the first card (ﾉಥ益ಥ）ﾉ")
-    print("Type B for the second card ʕノ•ᴥ•ʔノﾉ")
+    print("Type B for the second card 🐻ʕ•ᴥ•ʔ🐻")
     print("Type C for the third card  ( ͡ᵔ ͜ʖ ͡ᵔ )")
-    print("Type 1 to leave the game")
+    print("Type 1 to leave the game 😢")
     selection = input("Selection picked: ")
      
 
@@ -24,14 +24,14 @@ while True:
     if selection == "B":
         
         my_card = random.randint(1, 10)
-        computer_card = random.randint(1, 7)
+        computer_card = random.randint(2, 7)
         print("\nYour number is", my_card)
         print("The computer number is", computer_card)
         
     if selection == "C":
         
-        my_card = random.randint(3, 10)
-        computer_card = random.randint(2, 10)
+        my_card = random.randint(3, 9)
+        computer_card = random.randint(2, 9)
         print("\nYour number is", my_card)
         print("The computer number is", computer_card)
     
